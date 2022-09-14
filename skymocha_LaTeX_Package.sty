@@ -1,0 +1,49 @@
+% Literally just for my class notes & homework
+% 
+% (c) Skye Kychenthal
+% 
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{skymocha_LaTeX_Package}[Skye Kychenthal LaTeX Package for Math]
+% ln 'c:\Users\nkych\Desktop\School & Work\Reed\Math 111\skymocha_LaTeX_Package.sty' 'C:\texlive\2022\texmf-dist\tex\latex\skymocha_LaTeX_Package.sty'
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+
+\newcommand{\header}[6]{
+
+    \begin{center}
+        \Large{ \textbf{#1} #2}\\
+        \vspace*{0.175in}
+        \textbf{#3}\\
+        \vspace*{0.125in}
+        Week #4: #5 $\to$ #6\\
+        \vspace*{0.065in}
+        \small Using Skye Kychenthal's \LaTeX Package
+        \\
+    \end{center}
+
+}
+
+% All real numbers
+\newcommand{\R}{\mathbb{R}} 
+% X is an element of all real numbers
+\newcommand{\xer}{x \in \mathbb{R} :}
+% Formal definition of a limit
+\newcommand{\limdef}[3]{\forall \epsilon > 0 \;\; 
+            \exists \delta > 0 \;\; \textrm{  such that  }
+            \;\; \textrm{if  } 0 < \mid x - #1 \mid < \delta, 
+            \;\; \textrm{then}
+            \;\; \mid #2 - #3 \mid < \epsilon }
+% Adds comments to proofs
+\newcommand{\comment}[1]{ \;\;\to\;\; \textrm{#1} }
+% Shorthand for limits
+\newcommand{\limlim}[3]{ \lim_{ #1 \to #2 } #3 }
+
+\newcommand{\meow}{nya}
+
+\let\myDate\date
+
+\endinput
+%%
+%% End of file skymocha_LaTeX_Package.sty'.
