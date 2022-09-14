@@ -11,8 +11,10 @@ For Calculus Classes &amp; Other Stuff I Guess? (figure out description later)
 
 ### Header
 
-`\header` $\to$ replacement for `\maketitle`\\
-`\header{Class}{Teacher/Section}{Name}{Week #}{Start Date}{End Date}`\\
+`\header` $\to$ replacement for `\maketitle`
+
+`\header{Class}{Teacher/Section}{Name}{Week #}{Start Date}{End Date}`
+
 `\header{Math 111}{Perkinson F02}{Skye Kycnenthal}{3}{9/12}{9/15}`
 
 ### XER
@@ -21,13 +23,15 @@ For Calculus Classes &amp; Other Stuff I Guess? (figure out description later)
 
 ### Limdef
 
-`\limdef` $\to$ formal definition of a limit\\
+`\limdef` $\to$ formal definition of a limit
+
 `\limdef{c}{f(x)}{L}`
 
 ### Limlim
 
-`\limlim` $\to$ replacement for $\lim$\\
-$\limlim{x}{k}{k x} = \lim_{x \to k}{k x}$
+`\limlim` $\to$ replacement for $\lim$
+
+\limlim{x}{k}{k x} = $\lim_{x \to k}{k x}$
 
 ### Misc
 
