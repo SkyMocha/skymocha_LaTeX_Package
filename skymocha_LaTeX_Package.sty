@@ -5,7 +5,6 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{skymocha_LaTeX_Package}[Skye Kychenthal LaTeX Package for Math]
-% ln 'c:\Users\nkych\Desktop\School & Work\Reed\Math 111\skymocha_LaTeX_Package.sty' 'C:\texlive\2022\texmf-dist\tex\latex\skymocha_LaTeX_Package.sty'
 
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
@@ -25,10 +24,20 @@
 
 }
 
-% All real numbers
-\newcommand{\R}{\mathbb{R}} 
+\newcommand{\picewise}[3]{
+    \begin{equation}
+        #1 =
+        \lbrace
+        \begin{array}{lr}
+            #2 \\
+            #3
+        \end{array}
+    \end{equation}
+}
+
 % X is an element of all real numbers
 \newcommand{\xer}{x \in \mathbb{R} :}
+
 % Formal definition of a limit
 \newcommand{\limdef}[3]{\forall \epsilon > 0 \;\; 
             \exists \delta > 0 \;\; \textrm{  such that  }

@@ -7,6 +7,9 @@ For Calculus Classes &amp; Other Stuff I Guess? (figure out description later)
 - amsmath
 - amssymb
 
+<!-- $\usepackage{amsmath}$
+$\usepackage{amssymb}$ -->
+
 ## Commands
 
 ### Header
@@ -19,19 +22,52 @@ For Calculus Classes &amp; Other Stuff I Guess? (figure out description later)
 
 ### XER
 
-`\xer` $\to$ returns x is an element in the set of all real numbers in fancy math notation
+`\xer` $\to$ returns x is an element in the set of all real numbers:
+
+$$
+x \in \mathbb{R} :
+$$
 
 ### Limdef
 
 `\limdef` $\to$ formal definition of a limit
 
-`\limdef{c}{f(x)}{L}`
+`\limdef{c}{f(x)}{L}` returns:
+
+$$
+\forall \epsilon > 0 \;\;
+\exists \delta > 0 \;\; \textrm{ such that }
+\;\; \textrm{if } 0 < \mid x - c \mid < \delta,
+\;\; \textrm{then}
+\;\; \mid f(x) - L \mid < \epsilon
+$$
 
 ### Limlim
 
 `\limlim` $\to$ replacement for $\lim$
 
-\limlim{x}{k}{k x} = $\lim_{x \to k}{k x}$
+`\limlim{x}{k}{k x}` equals:
+
+$$
+\lim_{x \to k}{k x}
+$$
+
+### Picewise
+
+`\picewise` $\to$ short-hand for picewise functions
+
+`\picewise{f(x)}{expression 1}{expression 2}`
+
+$$
+\begin{equation}
+    f(x) =
+    \lbrace
+    \begin{array}{lr}
+        expression 1\\
+        expression 2
+    \end{array}
+\end{equation}
+$$
 
 ### Misc
 
