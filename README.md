@@ -33,10 +33,12 @@ $\usepackage{amssymb}$ -->
 
 ### Comment
 
+**NOTE:** Github will not render spaces before comments
+
 `comment{aaa}` returns:
 
 $$
-\hspace*{8pt}\to\hspace*{10pt} \textrm{aaa}
+\to \textrm{aaa}
 $$
 
 Example:
@@ -52,11 +54,11 @@ Example:
 `b = 1 \comment {subtraction}`
 
 $$
-(1, 3) \hspace*{8pt}\to\hspace*{10pt} \textrm{given}\\
-f(x) = 2x + b \hspace*{8pt}\to\hspace*{10pt} \textrm{given}\\
-b = f(x) - 2x \hspace*{8pt}\to\hspace*{10pt} \textrm{subtraction}\\
-b = 3 - 2 \hspace*{8pt}\to\hspace*{10pt} \textrm{substitution}\\
-b = 1 \hspace*{8pt}\to\hspace*{10pt} \textrm{subtraction}
+(1, 3) \to \textrm{given}\\
+f(x) = 2x + b \to \textrm{given}\\
+b = f(x) - 2x \to \textrm{subtraction}\\
+b = 3 - 2 \to \textrm{substitution}\\
+b = 1 \to \textrm{subtraction}
 $$
 
 ### XER
@@ -69,16 +71,18 @@ $$
 
 ### Limdef
 
+**NOTE:** Github will not render spaces before comments
+
 `\limdef` $\to$ formal definition of a limit
 
 `\limdef{c}{f(x)}{L}` returns:
 
 $$
-\forall \epsilon > 0 \hspace*{8pt}
-\exists \delta > 0 \hspace*{5pt} \textrm{  such that  }
-\hspace*{8pt} \textrm{if  } 0 < \mid x - #1 \mid < \delta,
-\hspace*{8pt} \textrm{then}
-\hspace*{5pt} \mid #2 - #3 \mid < \epsilon
+\forall \epsilon > 0
+\exists \delta > 0  \textrm{  such that  }
+\textrm{if  } 0 < \mid x - #1 \mid < \delta,
+\textrm{then}
+\mid #2 - #3 \mid < \epsilon
 $$
 
 ### Limlim
