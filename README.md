@@ -1,6 +1,6 @@
 # skymocha_LaTeX_Package
 
-For Calculus Classes &amp; Other Stuff I Guess? (figure out description later)
+$\LaTeX$ package for my college calculus class. Feel free to use.
 
 - [Requirements](#requirements)
 - [Documentation](#documentation)
@@ -51,13 +51,15 @@ Example:
 
 `b = 1 \comment {subtraction}`
 
-$$
-(1, 3) \to \textrm{given} \\
-f(x) = 2x + b \to \textrm{given} \\
-b = f(x) - 2x \to \textrm{subtraction} \\
-b = 3 - 2 \to \textrm{substitution} \\
-b = 1 \to \textrm{subtraction}
-$$
+$(1, 3) \to \textrm{given}$
+
+$f(x) = 2x + b \to \textrm{given}$
+
+$b = f(x) - 2x \to \textrm{subtraction}$
+
+$b = 3 - 2 \to \textrm{substitution}$
+
+$b = 1 \to \textrm{subtraction}$
 
 ### XER
 
