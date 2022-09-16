@@ -36,10 +36,7 @@ $\usepackage{amssymb}$ -->
 `comment{aaa}` returns:
 
 $$
-
-    \hspace*{0.125in}\to\hspace*{0.175in} \textrm{aaa}
-
-
+\hspace*{0.125in}\to\hspace*{0.175in} \textrm{aaa}
 $$
 
 Example:
@@ -55,11 +52,11 @@ Example:
 `b = 1 \comment {subtraction}`
 
 $$
-    (1, 3) \hspace*{0.125in}\to\hspace*{0.175in} \textrm{given}\\
-    f(x) = 2x + b \hspace*{0.125in}\to\hspace*{0.175in} \textrm{given}\\
-    b = f(x) - 2x \hspace*{0.125in}\to\hspace*{0.175in} \textrm{subtraction}\\
-    b = 3 - 2 \hspace*{0.125in}\to\hspace*{0.175in} \textrm{substitution}\\
-    b = 1 \hspace*{0.125in}\to\hspace*{0.175in} \textrm{subtraction}
+(1, 3) \hspace*{0.125in}\to\hspace*{0.175in} \textrm{given}\\
+f(x) = 2x + b \hspace*{0.125in}\to\hspace*{0.175in} \textrm{given}\\
+b = f(x) - 2x \hspace*{0.125in}\to\hspace*{0.175in} \textrm{subtraction}\\
+b = 3 - 2 \hspace*{0.125in}\to\hspace*{0.175in} \textrm{substitution}\\
+b = 1 \hspace*{0.125in}\to\hspace*{0.175in} \textrm{subtraction}
 $$
 
 ### XER
@@ -80,8 +77,8 @@ $$
 \forall \epsilon > 0 \hspace*{0.125in}
 \exists \delta > 0 \hspace*{0.0625in} \textrm{  such that  }
 \hspace*{0.0625in} \textrm{if  } 0 < \mid x - #1 \mid < \delta,
-\hspace*{0.125} \textrm{then}
-\hspace*{0.625} \mid #2 - #3 \mid < \epsilon
+\hspace*{0.125in} \textrm{then}
+\hspace*{0.625in} \mid #2 - #3 \mid < \epsilon
 $$
 
 ### Limlim
