@@ -37,9 +37,7 @@ $\usepackage{amssymb}$ -->
 
 `comment{aaa}` returns:
 
-$$
-\to \textrm{aaa}
-$$
+$\to \textrm{aaa}$
 
 Example:
 
@@ -54,10 +52,10 @@ Example:
 `b = 1 \comment {subtraction}`
 
 $$
-(1, 3) \to \textrm{given}\\
-f(x) = 2x + b \to \textrm{given}\\
-b = f(x) - 2x \to \textrm{subtraction}\\
-b = 3 - 2 \to \textrm{substitution}\\
+(1, 3) \to \textrm{given} \\
+f(x) = 2x + b \to \textrm{given} \\
+b = f(x) - 2x \to \textrm{subtraction} \\
+b = 3 - 2 \to \textrm{substitution} \\
 b = 1 \to \textrm{subtraction}
 $$
 
@@ -80,9 +78,9 @@ $$
 $$
 \forall \epsilon > 0
 \exists \delta > 0  \textrm{  such that  }
-\textrm{if  } 0 < \mid x - #1 \mid < \delta,
+\textrm{if  } 0 < \mid x - c \mid < \delta,
 \textrm{then}
-\mid #2 - #3 \mid < \epsilon
+\mid f(x) - L \mid < \epsilon
 $$
 
 ### Limlim
